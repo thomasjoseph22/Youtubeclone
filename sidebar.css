@@ -1,0 +1,41 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    
+
+}
+
+.saidebaricon{
+   
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:20px ;
+    
+   
+   
+}
+
+
+.saidebaricon:hover{
+  background-color: lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.saidebaricon img{
+    height: 24px;
+    margin-bottom: 2px;
+}
+.saidebaricon div{
+    font-family: Roboto, Arial;
+    font-size: 15px;
+
+    
+}
